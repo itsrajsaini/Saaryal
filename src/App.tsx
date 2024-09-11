@@ -94,7 +94,7 @@ const App = () => {
       </div>
 
       <div className='flex flex-wrap justify-center md:gap-80 gap-20 pt-20'>
-        <div className='h-80 w-60  hover:shadow hover:shadow-red-800 flex flex-col items-center justify-center object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'><img className='h-40 w-40 object-cover' src={VE} alt="Graphic Designing" /><h1 className='text-center text-lg pt-5 font-bold font-serif'>VEDIO EDITING</h1>
+        <div className='h-80 w-60  hover:shadow hover:shadow-red-800 flex flex-col items-center justify-center object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'><img className='h-40 w-40 object-cover' src={VE} alt="Graphic Designing" /><h1 className='text-center text-lg pt-5 font-bold font-serif'>VIDEO EDITING</h1>
         <div className='absolute inset-0 flex rounded-lg flex-col items-center  bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
         <h1 className='text-center text-lg pt-3 font-bold font-serif'>VIDEO EDITING</h1>
         <h1 className=' text-base text-center pt-3 text-neutral-600'>Our years experience of working with 2d, 3d, Character Designing. We have also team of mobile app marketing and they have ample amount of experience working on mobile UI/UX  & complete mobile app marketing & development.</h1>
@@ -150,6 +150,14 @@ const App = () => {
 <div className='flex flex-wrap justify-center md:gap-x-80 md:gap-40 gap-24 pt-20'>
 
 <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
+    <img src={pdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
+      <h1 className='text-lg pt-5'>PRINT DESIGNER</h1>
+      <h1 className=' text-center pt-3 text-neutral-600'>She has 2.5 years experience as a printer designer. Her skill is in corel draw and She works in catalogues printing services magazines custom stationary business card designs etc</h1>
+    </div>
+  </div>
+
+<div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
     <img src={gdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>GRAPHIC DESIGNER</h1>
@@ -178,14 +186,6 @@ const App = () => {
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>VIDEO EDITOR</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2 year experience as a video editor into premier pro after effect and filmora. Her expertise includes brand identity video clip shoots reels etc.</h1>
-    </div>
-  </div>
-
-  <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={pdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
-    <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
-      <h1 className='text-lg pt-5'>PRINT DESIGNER</h1>
-      <h1 className=' text-center pt-3 text-neutral-600'>She has 2.5 years experience as a printer designer. Her skill is in corel draw and She works in catalogues printing services magazines custom stationary business card designs etc</h1>
     </div>
   </div>
 

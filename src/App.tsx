@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import img2 from "../src/assets/img2.jpg";
-import Eimg from "../src/assets/no-dp_16.jpg";
+import img2 from "../src/assets/img2.jpg"
 import PD from "../src/assets/PD.png"
 import VE from "../src/assets/VE.png"
 import WD from "../src/assets/WD.png"
@@ -189,7 +188,6 @@ const App = () => {
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2 year experience as a video editor into premier pro after effect and filmora. Her expertise includes brand identity video clip shoots reels etc.</h1>
     </div>
   </div>
-
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
     <img src={dmp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>

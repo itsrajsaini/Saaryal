@@ -6,6 +6,12 @@ import VE from "../src/assets/VE.png"
 import WD from "../src/assets/WD.png"
 import GD from "../src/assets/GD.png"
 import DM from "../src/assets/DM.png"
+import gdp from "../src/assets/gdp.jpeg"
+import pdp from "../src/assets/pdp.jpeg"
+import vep from "../src/assets/vep.jpeg"
+import dmp from "../src/assets/dmp.jpeg"
+import ceo from "../src/assets/ceo.jpg"
+import raj from "../src/assets/raj.jpg"
 
 
 
@@ -82,7 +88,7 @@ const App = () => {
       <div className='h-80 w-60  hover:shadow hover:shadow-red-800 flex flex-col items-center justify-center object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'><img className='h-40 w-40 object-cover' src={PD} alt="Graphic Designing" /><h1 className='text-center text-lg pt-5 font-bold font-serif'>PRINTING DESIGNING</h1>
         <div className='absolute inset-0 flex rounded-lg flex-col items-center  bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
         <h1 className='text-center text-lg pt-3 font-bold font-serif'>PRINTING DESIGNING</h1>
-        <h1 className=' text-base text-center pt-3 text-neutral-600'>Printing designers creating visual content that will be produced through their ideas and  designs in the simplest form to make you shine brighter in your business.</h1>
+        <h1 className=' text-base text-center pt-3 text-neutral-600'>Our printing designs creating visual content that will be produced through their ideas and  designs in the simplest form to make you shine brighter in your business.</h1>
       </div>
       </div>
       </div>
@@ -90,14 +96,14 @@ const App = () => {
       <div className='flex flex-wrap justify-center md:gap-80 gap-20 pt-20'>
         <div className='h-80 w-60  hover:shadow hover:shadow-red-800 flex flex-col items-center justify-center object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'><img className='h-40 w-40 object-cover' src={VE} alt="Graphic Designing" /><h1 className='text-center text-lg pt-5 font-bold font-serif'>VEDIO EDITING</h1>
         <div className='absolute inset-0 flex rounded-lg flex-col items-center  bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
-        <h1 className='text-center text-lg pt-3 font-bold font-serif'>VEDIO EDITING</h1>
-        <h1 className=' text-base text-center pt-3 text-neutral-600'>We have experience of working with 2d, 3d, Character Designing. We have also team of mobile app marketing and they have ample amount of experience working on mobile UI/UX  & complete mobile app marketing & development.</h1>
+        <h1 className='text-center text-lg pt-3 font-bold font-serif'>VIDEO EDITING</h1>
+        <h1 className=' text-base text-center pt-3 text-neutral-600'>Our years experience of working with 2d, 3d, Character Designing. We have also team of mobile app marketing and they have ample amount of experience working on mobile UI/UX  & complete mobile app marketing & development.</h1>
       </div>
       </div>
       <div className='h-80 w-60  hover:shadow hover:shadow-red-800 flex flex-col items-center justify-center object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'><img className='h-40 w-40 object-cover' src={WD} alt="Graphic Designing" /><h1 className='text-center text-lg pt-5 font-bold font-serif'>WEB DEVELOPMENT</h1>
         <div className='absolute inset-0 flex rounded-lg flex-col items-center  bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
         <h1 className='text-center text-lg pt-3 font-bold font-serif'>WEB DEVELOPMENT</h1>
-        <h1 className=' text-base text-center pt-3 text-neutral-600'>Saaryal with its years of experience has become one of the leading Web Development Company in Jaipur, India. With the team of highly expertise and accomplished professionals, we have served multiple businesses in crafting their powerful position across the web.</h1>
+        <h1 className=' text-base text-center pt-3 text-neutral-600'>Our years of experience has become one of the leading Web Development Company in Jaipur, India. With the team of highly expertise and accomplished professionals, we have served multiple businesses in crafting their powerful position across the web.</h1>
       </div>
       </div>
       </div>
@@ -121,9 +127,9 @@ const App = () => {
 
       <div className='flex flex-wrap justify-center pt-10'>
   <div className='flex flex-col items-center h-full w-full max-w-3xl rounded-lg hover:shadow-lg'>
-    <img src={Eimg} alt="" className='w-80 h-96 object-cover rounded-lg mb-8'/>
+    <img src={ceo} alt="" className='w-80 h-96 object-cover rounded-lg mb-8'/>
     <div className='w-3/4 text-center'>
-      <h1 className='text-2xl font-bold font-serif mb-2'>SAHIL TANK</h1>
+      <h1 className='text-2xl font-bold font-serif mb-2'>SAHIL TAK</h1>
       <h2 className='text-xl text-neutral-600 mb-4'>Founder and Creative Director </h2>
       <p className='text-base text-neutral-600'>
         Meet the mastermind behind Saaryal's stunning designs! Our co-founder's passion for innovation and style is redefining the industry. <br /><br />
@@ -144,9 +150,9 @@ const App = () => {
 <div className='flex flex-wrap justify-center md:gap-x-80 md:gap-40 gap-24 pt-20'>
 
 <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={gdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
-      <h1 className='text-lg pt-5'>GRAPHIC DESIGNING</h1>
+      <h1 className='text-lg pt-5'>GRAPHIC DESIGNER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>He has 7 years of experience with Adobe photoshop & Adobe illustrator they create all types of social media posts, posters, logo's, pemplate, template and all types of desiging related works and also know about social media strategy brand strategy & social media management</h1>
     </div>
   </div>
@@ -160,7 +166,7 @@ const App = () => {
   </div>
   
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={raj} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>WEB DEVELOPER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>He has 2 years of experience as a web developer. He has knowledge of HTML CSS JavaScript and react Fronthand and firebase backhand</h1>
@@ -168,15 +174,15 @@ const App = () => {
   </div>
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={vep} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
-      <h1 className='text-lg pt-5'>VEDIO EDITOR</h1>
+      <h1 className='text-lg pt-5'>VIDEO EDITOR</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2 year experience as a video editor into premier pro after effect and filmora. Her expertise includes brand identity video clip shoots reels etc.</h1>
     </div>
   </div>
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={pdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>PRINT DESIGNER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2.5 years experience as a printer designer. Her skill is in corel draw and She works in catalogues printing services magazines custom stationary business card designs etc</h1>
@@ -184,10 +190,10 @@ const App = () => {
   </div>
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={dmp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>DIGITAL MARKETER</h1>
-      <h1 className=' text-center pt-3 text-neutral-600'>She is a digital marketer and has 2 years of experience. Her skills is in data analysis content creator Seo & Sem communication skills content marketing etc</h1>
+      <h1 className=' text-center pt-3 text-neutral-600'>Digital Marketer SEO and content writing with four years of experience. She knows how to boost your website's visibility and write content that engages and converts. Trust Neha to take your online presence to the next level.</h1>
     </div>
   </div>
   
@@ -204,7 +210,7 @@ const App = () => {
         <div className="aboutpara pt-5" >
         <p className='text-neutral-600'>
           
-        Welcome to Saaryal Designing Hub where creativity meets innovation and passion meets purpose. We're a team of dedicated designers, driven by a shared vision to craft exceptional experiences that inspire and elevate. <br /><br />
+        Welcome to Sáàryal where creativity meets innovation and passion meets purpose. We're a team of dedicated designers, driven by a shared vision to craft exceptional experiences that inspire and elevate. <br /><br />
 
 Our journey began with a simple yet bold idea: to redefine the boundaries of design and bring imagination to life. Today, we're proud to be a leading force in the industry, known for our commitment to excellence, sustainability, and community. <br /><br />
 

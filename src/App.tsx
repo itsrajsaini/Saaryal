@@ -12,6 +12,7 @@ import vep from "../src/assets/vep.jpeg"
 import dmp from "../src/assets/dmp.jpeg"
 import ceo from "../src/assets/ceo.jpg"
 import raj from "../src/assets/raj.jpg"
+import php from "../src/assets/php.jpeg"
 
 
 
@@ -152,7 +153,7 @@ const App = () => {
 <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
     <img src={pdp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
-      <h1 className='text-lg pt-5'>PRINT DESIGNER</h1>
+      <h1 className='text-lg pt-5'>PRINTING DESIGNER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2.5 years experience as a printer designer. Her skill is in corel draw and She works in catalogues printing services magazines custom stationary business card designs etc</h1>
     </div>
   </div>
@@ -166,7 +167,7 @@ const App = () => {
   </div>
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={Eimg} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={php} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>PHOTOGRAPHER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>He has 11 years of experience as a photographer and also does product and model photoshoots.</h1>
@@ -188,6 +189,7 @@ const App = () => {
       <h1 className=' text-center pt-3 text-neutral-600'>She has 2 year experience as a video editor into premier pro after effect and filmora. Her expertise includes brand identity video clip shoots reels etc.</h1>
     </div>
   </div>
+
 
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
     <img src={dmp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>

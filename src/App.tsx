@@ -1,17 +1,17 @@
 import { useEffect, useState } from 'react';
-import img2 from "../src/assets/img2.jpg"
+import img3 from "../src/assets/img3.jpg"
 import PD from "../src/assets/PD.png"
 import VE from "../src/assets/VE.png"
 import WD from "../src/assets/WD.png"
 import GD from "../src/assets/GD.png"
 import DM from "../src/assets/DM.png"
-import gdp from "../src/assets/gdp.jpeg"
-import pdp from "../src/assets/pdp.jpeg"
 import vep from "../src/assets/vep.jpeg"
-import dmp from "../src/assets/dmp.jpeg"
 import ceo from "../src/assets/ceo.jpg"
-import raj from "../src/assets/raj.jpg"
 import php from "../src/assets/php.jpeg"
+import gdp from "../src/assets/gdp.jpg"
+import dmp from "../src/assets/dmp.jpg"
+import pdp from "../src/assets/pdp.jpg"
+import wbp from "../src/assets/wbp.jpg"
 
 
 
@@ -58,7 +58,7 @@ const App = () => {
       <hr className=''/> 
 
       <div className="relative">
-        <img src={img2} alt="Image Description" className="mx-auto max-w-full h-auto" />
+        <img src={img3} alt="Image Description" className="mx-auto max-w-full h-auto" />
 
         <div className="absolute inset-0 flex flex-col justify-center items-center">
           <div>
@@ -174,7 +174,7 @@ const App = () => {
   </div>
   
   <div className='relative h-80 w-72 rounded-lg overflow-hidden hover:shadow-lg'>
-    <img src={raj} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
+    <img src={wbp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>WEB DEVELOPER</h1>
       <h1 className=' text-center pt-3 text-neutral-600'>He has 2 years of experience as a web developer. He has knowledge of HTML CSS JavaScript and react Fronthand and firebase backhand</h1>
@@ -193,7 +193,7 @@ const App = () => {
     <img src={dmp} alt="" className='h-full w-full object-cover rounded-lg transition-transform duration-500 transform hover:rotate-y-180'/>
     <div className='absolute inset-0 flex flex-col items-center bg-gray-800 text-white opacity-0 transition-opacity duration-500 hover:opacity-100'>
       <h1 className='text-lg pt-5'>DIGITAL MARKETER</h1>
-      <h1 className=' text-center pt-3 text-neutral-600'>Digital Marketer SEO and content writing with four years of experience. She knows how to boost your website's visibility and write content that engages and converts. Trust Neha to take your online presence to the next level.</h1>
+      <h1 className=' text-center pt-3 text-neutral-600'>Digital Marketer SEO and content writing with four years of experience. She knows how to boost your website's visibility and write content that engages and converts. Rely on her to elevate your online presence to a more professional level.</h1>
     </div>
   </div>
   
@@ -234,7 +234,10 @@ Explore our website to discover our story, our values, and our portfolio of tran
         </div>
         <div className='contact-bucket'>
             <div className="contact-form" >
-                <form >
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                <input type="hidden" name="access_key" value="1ea7e6e3-aea5-4266-82c8-a5f5792d498b"/>
+
                     <div className="txt_field">
                         <input type="text" required id="name" name="name"/>
                         <span></span>
